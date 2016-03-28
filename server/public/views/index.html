@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weekend 1 Re-work</title>
+        <!-- STYLES -->
+        <link rel="stylesheet" href="../assets/style.css">
+        <!-- SCRIPTS -->
+        <script type="text/javascript" src="vendors/jquery.min.js"></script>
+        <script type="text/javascript" src="scripts/client-app.js"></script>
+    </head>
+
+<body>
+
+  <main>
+    <h1>Monthly Salary Cost Calculator</h1>
+
+  <div class="form-style">
+
+      <form id="employeeForm">
+
+        <h2>Enter Employee Data</h2>
+
+        <p>
+          <label for="firstname">First Name</label>
+          <input type="text" id="firstname" name="firstname" placeholder="First name"/>
+        </p>
+
+        <p>
+          <label for="lastname">Last Name here</label>
+          <input type="text" id="lastname" name="lastname" placeholder="Last name"/>
+        </p>
+
+        <p>
+          <label for="emp_id">Employee ID</label>
+          <input type="text" id="emp_id" name="emp_id" placeholder="ID"/>
+        </p>
+
+        <p>
+          <label for="title">Job Title</label>
+          <input type="text" id="title" name="title" placeholder="Title"/>
+        </p>
+
+        <p>
+          <label for="salary">Yearly Salary</label>
+          <input type="text" id="salary" name="salary" placeholder="Salary"/>
+        </p>
+
+        <p>
+          <button id="submit-button">Submit</button>
+        </p>
+
+      </form>
+
+  </div>
+
+  <div class="results">
+
+    <h2>Total Cost</h2>
+
+    <p class="monthly-total-comp"></p>
+
+    <h2>Employee Data</h2>
+
+    <div class="output-container">
+
+    </div>
+  </div>
+</main>
+</body>
+
+</html>
